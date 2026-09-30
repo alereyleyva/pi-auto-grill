@@ -2,7 +2,7 @@
 
 AutoGrill reduces the effort of design grilling without replacing the workflow that makes it useful.
 
-This repository is the Pi-specific distribution: Pi's `pi-subagents` package discovers the bundled Decider agent. The portable workflow skill is distributed separately from the `alereyleyva/skills` repository.
+This repository is the Pi-specific distribution: `pi-subagents` discovers the bundled Decider agent, whose frontmatter configures fresh context and an empty tool allowlist. The portable skill also ships the Decider instructions as plain Markdown in the `alereyleyva/skills` repository; this package provides the equivalent Pi agent configuration.
 
 ## Goal
 

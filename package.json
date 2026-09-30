@@ -2,6 +2,10 @@
   "name": "@alereyleyva/pi-auto-grill",
   "version": "0.1.0",
   "description": "A Pi skill that automates GrillMe rounds with an independent Decider",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alereyleyva/pi-auto-grill.git"
+  },
   "license": "MIT",
   "publishConfig": {
     "access": "public"

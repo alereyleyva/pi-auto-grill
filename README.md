@@ -2,6 +2,8 @@
 
 AutoGrill reduces the effort of design grilling without replacing the workflow that makes it useful.
 
+This repository is the Pi-specific distribution: Pi's `pi-subagents` package discovers the bundled Decider agent. The portable workflow skill is distributed separately from the `alereyleyva/skills` repository.
+
 ## Goal
 
 Use the currently installed GrillMe skill as the sole authority for exploring a design: it owns the design tree, question frontier, recommendations, fact-finding, and completion. AutoGrill changes only who answers each round.

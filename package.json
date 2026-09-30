@@ -1,0 +1,13 @@
+{
+  "name": "pi-auto-grill",
+  "version": "0.1.0",
+  "description": "AutoGrill skill and independent Decider agent for Pi",
+  "license": "MIT",
+  "keywords": ["pi-package", "pi", "pi-coding-agent", "auto-grill"],
+  "pi": {
+    "skills": ["./skills"]
+  },
+  "pi-subagents": {
+    "agents": ["./agents"]
+  }
+}

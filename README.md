@@ -1,5 +1,7 @@
 # Pi AutoGrill
 
+[![npm version](https://img.shields.io/npm/v/%40alereyleyva%2Fpi-auto-grill)](https://www.npmjs.com/package/@alereyleyva/pi-auto-grill)
+
 AutoGrill reduces the effort of design grilling without replacing the workflow that makes it useful.
 
 This repository is the Pi-specific distribution: `pi-subagents` discovers the bundled Decider agent, whose frontmatter configures fresh context and an empty tool allowlist. The portable skill also ships the Decider instructions as plain Markdown in the `alereyleyva/skills` repository; this package provides the equivalent Pi agent configuration.

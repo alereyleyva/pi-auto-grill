@@ -31,7 +31,7 @@ Install the dependency and this package:
 
 ```sh
 pi install npm:pi-subagents
-pi install npm:pi-auto-grill
+pi install npm:@alereyleyva/pi-auto-grill
 ```
 
 For a local checkout, replace the second command with `pi install /path/to/auto-grill`.
@@ -59,7 +59,7 @@ The package has no runtime code or package dependencies. `pi` declares the skill
 
 ## Publish
 
-Before the first npm release, choose and configure the public Git repository in `package.json`, confirm the npm package name is available, then inspect the exact archive with:
+Before the first npm release, configure the public Git repository in `package.json`, confirm the scoped npm package name is available, then inspect the exact archive with:
 
 ```sh
 bun publish --dry-run
@@ -68,5 +68,5 @@ bun publish --dry-run
 Publish when the package name, repository metadata, and archive contents are ready:
 
 ```sh
-bun publish --access public
+bun publish
 ```

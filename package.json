@@ -1,8 +1,11 @@
 {
-  "name": "pi-auto-grill",
+  "name": "@alereyleyva/pi-auto-grill",
   "version": "0.1.0",
   "description": "A Pi skill that automates GrillMe rounds with an independent Decider",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "author": "Alejandro Rey",
   "files": ["README.md", "LICENSE", "skills/", "agents/"],
   "keywords": [
